@@ -1,5 +1,5 @@
 import { IUserInfo, UserBirthday, UserLoc } from "../../types/users";
-import { NationalColorData, NATIONAL_ABB, NATIONAL_COLOR } from "./national";
+import { NationalColorData, NationalAbb, NATIONAL_ABB, NATIONAL_COLOR } from "./national";
 
 export const convertFullName = (title: string, first: string, last: string): string =>
   `${title}. ${first} ${last}`;

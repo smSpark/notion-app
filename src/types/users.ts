@@ -19,6 +19,7 @@ export interface UserApiResponse {
     dob: UserBirthday;
     registered: UserRegDate;
     phone: string;
+    national: string;
     cell: string;
     id: UserID;
     picture: UserPicture;

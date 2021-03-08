@@ -71,13 +71,13 @@ export const getContactStatistic = createSelector([getContacts], (contacts) => {
         acc.indeterminate += 1;
       }
 
-      const fullNational = NATIONAL_ABB[value.nat] || value.nat;
+      // const fullNational = NATIONAL_ABB[value.nat] || value.nat;
 
-      if (!acc.nationals[fullNational]) {
-        acc.nationals[fullNational] = 1;
-      } else {
-        acc.nationals[fullNational] += 1;
-      }
+      // if (!acc.nationals[fullNational]) {
+      //   acc.nationals[fullNational] = 1;
+      // } else {
+      //   acc.nationals[fullNational] += 1;
+      // }
 
       return acc;
     },

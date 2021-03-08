@@ -7,9 +7,11 @@ export interface NationalColor {
   [key: string]: NationalColorData,
 }
 
+
 export interface NationalAbb {
   [key: string]: string,
 }
+
 
 export const POSSIBLE_COLOR = [
   "#9F1B69",
