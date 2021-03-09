@@ -23,6 +23,7 @@ const Contacts: React.FC = () => {
           </Header>
           <MainWrapper>
             <ContactsView />
+            <Pagination />
           </MainWrapper>
         </Container>
       );
