@@ -4,6 +4,9 @@ import { ContactsView } from "../../components/ContactsView/ContactsView";
 import { fetchContacts } from "../../redux/contacts/action";
 import { SettingPanel } from "../../components/SettingPanel/SettingPanel";
 import { Pagination } from "../../components/Pagination/Pagination";
+import { Statistic } from "../../components/Statistic/Statistic";
+import { Filter } from "../../components/Filter/Filter";
+
 
 
 import { Container, Header, MainWrapper, Title } from "./ContactsStyle";
@@ -22,7 +25,9 @@ const Contacts: React.FC = () => {
             <SettingPanel />
           </Header>
           <MainWrapper>
+            <Filter />
             <ContactsView />
+            <Statistic />
             <Pagination />
           </MainWrapper>
         </Container>
