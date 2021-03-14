@@ -15,6 +15,7 @@ const Statistic: React.FC = () => {
   const { collectionsize, males, females, indeterminate, nationals } = useSelector(
     getContactStatistic,
   );
+  console.log(nationals);
 
   return (
     <StatisticWrapper>

@@ -7,6 +7,7 @@ export interface StatNationBlockProps {
 }
 
 const StatNationBlock: React.FC<StatNationBlockProps> = ({ data }) => {
+
   return (
     <StatNationBlockWrapper>
       <StatNationTitle>Nationalities</StatNationTitle>
